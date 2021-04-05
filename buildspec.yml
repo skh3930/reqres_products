@@ -2,12 +2,6 @@ version: 0.2
 
 env:
   variables:
-    IMAGE_REPO_NAME: "skcc11-products"
-    
-    version: 0.2
-
-env:
-  variables:
     _PROJECT_NAME: "skcc11-products"
 
 phases:
@@ -99,6 +93,6 @@ phases:
                       periodSeconds: 5
                       failureThreshold: 5
           EOF
-cache:
-  paths:
-    - '/root/.m2/**/*'
+#cache:
+#  paths:
+#    - '/root/.m2/**/*'
